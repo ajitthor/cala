@@ -1,0 +1,394 @@
+@font-face{
+    font-family:"DAGGERSQUARE";
+    src:url(font/DAGGERSQUARE.otf);
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+.banner{
+    position: relative;
+    height:600px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url("image/[Downloader.la]-65a76d07c64f2.png");
+    
+}
+.logo img{
+    width: 100px; 
+    height: auto;
+   
+
+    
+
+}
+
+.highlight{
+    color:orange;
+
+}
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+    
+}   
+.navbar .logo img{
+    position: absolutee;
+    left:30px;
+
+}
+.h1tag{
+    font-family:DAGGERSQUARE;
+}
+
+.navbar .col-lg-10 li{
+    white-space: nowrap;
+    margin: 20px 1px;
+    display:flex;
+    padding:10px 20px;
+    list-style-type: none;
+    display:inline;
+    color:antiquewhite;
+   
+
+    
+}
+.navbar .col-lg-10 li a{
+    text-decoration:none;
+    color:white;
+    cursor:pointer;
+}
+
+
+.navbar .col-lg-10 ul{
+    text-decoration:none;
+    display:flex;
+}
+
+.navbar .col-lg-10 li button{
+    background-color: orange;
+    border-radius: 20px;
+    padding:10px;
+    border:none;
+
+
+}
+.navbar .col-lg-10 .cart_logo {
+    width:100px;
+    height: 100px;
+}
+.gallery .beyond{
+    text-transform:capitalize;
+    text-align:center;
+
+
+
+}
+
+.banner .h1tag{
+    color:white;
+    text-align:center;
+
+
+}
+.banner .para {
+    color:WHITE;
+    font-size: 20px;
+    text-align:center;
+    margin-top:60px;
+
+}
+.banner .button1{
+    margin-left:40%;
+    margin-top:40px;
+    font-size:20px;
+    padding:10px 30px
+
+
+    
+
+}
+.para0 h3{
+    font-family:DAGGERSQUARE ;
+
+}
+.para0 h2{
+    font-family:DAGGERSQUARE ;
+
+}
+.banner .tenis{
+    margin-left:80%;
+ 
+    
+}
+.banner .tenis img{
+    width:210px;
+    
+   
+}
+.para2{
+    font-family:poppins;
+}
+.aboutcon .container{
+    background-color: white;
+    height:508px;
+    
+}
+.jjj{
+    
+    border:3px solid orange;
+    border-radius:100px;
+    margin: auto;
+    width: 40%;
+    padding: 5px;
+    margin-bottom:10px;
+   
+    
+
+}
+
+.gallery .single_pic {
+    margin:10px 33.34%;
+}
+.button1{
+    background-color:orange;
+    border-radius: 20px;
+    padding:5px 10px;
+    border:none;
+
+
+}
+.opr{
+    color:orange
+}
+.para0{
+    position:absolute;
+    left:10%;
+    border:3px black; 
+    margin:50px;
+}
+.gallery {
+    margin:10px 30px;
+    padding:10px;
+}
+.gallery .headi{
+    font-family:DAGGERSQUARE;
+
+}
+.btn3{
+    border-radius:20px;
+    padding:10px;
+    background-color:orange;
+    border:none;
+    margin:10px 40%;
+
+}
+.piclorem{
+    margin-top:5px;
+}
+.carosol{
+    background-image: url("image/c0a5c325cb2e809fe4a2ab3757156bf2\ \(3\).png");
+    width:100%;
+    height:500px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.carosol h1{
+    font-family:"DAGGERSQUARE";
+    color:orange;
+    margin-top:20px;
+    padding-top:50px ;
+    padding-bottom:50px;
+
+
+}
+.carosol .card-body img{
+   width:300px;
+   height:200px;
+}
+/* .clouser{
+    background-image: url("image/bg2.png");
+    width:100%;
+    height:500px;
+}
+.clouser h1{
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+.clouser .row{
+    margin-top:10%;
+    
+} */
+.cards{
+    margin:50px;
+
+}
+.cards h1{
+    font-family:DAGGERSQUARE;
+
+}
+.cards p{
+    font-size:20px;
+    font-family:popppins;
+}
+
+.card-item{
+    border-radius:5px;
+}
+.cards .cardp{
+    text-align:center;
+    margin-top: 10px;
+
+}
+.contactus .para5{
+    text-align:center;
+    margin-top:20px;
+}
+.contactus img{
+    margin:50px;
+    width:300px;
+
+}
+.formsubmision{
+
+}
+.aboutcon button{
+    padding:5px;
+    border-radius:10px;
+    background-color: orange;
+    border:none;
+
+}
+.contactus button {
+    padding:5px;
+    border-radius:10px;
+    background-color: orange;
+    border:none;
+    margin:10px;
+
+
+}
+.btn4{
+    padding:5px;
+    border-radius:10px;
+    background-color: orange;
+    border:none;
+}
+.foot{
+    background-image: url("image/bg2.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width:100%;
+    height:auto;
+    
+}
+.videosec{
+    margin-top:50px;
+    margin-bottom:50px;
+}
+
+
+/* form */
+.container-form {
+    width: 80%;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.container-form h1 {
+  text-align: center;
+}
+
+.container-form .form-group {
+  margin-bottom: 20px;
+}
+
+.container-form label {
+  display: block;
+  font-weight: lighter;
+}
+
+input [type="text"],
+input[type="email"],
+.container-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.container-form textarea {
+input[type="email"],
+  height: 150px;
+}
+
+.container-form button[type="submit"] {
+  background-color: orange;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 0%;
+  color:black;
+}
+
+.container-form button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+.contactus h3{
+    font-family:DAGGERSQUARE;
+}
+.contactus h2{
+    font-family:DAGGERSQUARE;
+}
+.contactus p{
+    font-family:poppins;
+}
+/*  */
+/*  */
+.card-body{
+    padding-left: 33.33%;
+    
+}
+.piclorem{
+    margin:10px;
+}
+.foot{
+    margin-top:20px;
+
+}
+.card-item{
+    padding:0px 30px
+}
+.carosol .card-body img {
+    width: 100%;
+    height: auto; /* Add this for responsive height */
+    max-width: 100%; /* Add this to prevent overflow */
+}
+.foot {
+    background-image: url("image/bg2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 20px 0; /* Adjust padding */
+}
+.carosol .card-body img{
+    width:100%;
+    height:200px;
+}
+
+}
