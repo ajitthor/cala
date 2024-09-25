@@ -391,7 +391,7 @@ input[type="email"],
     }
   }
 /* Media query for mobile devices */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 900px) {
     .imageto  {
       display: none;
     }
